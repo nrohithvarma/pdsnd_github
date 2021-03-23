@@ -256,8 +256,6 @@ def raw_data(df):
     responses = ['yes', 'no']
     user_response = []
     
-    i = 5   # counter variable for displaying rows of dataset
-    
     
     # loop to accept user response and show data
     while user_response not in responses:
@@ -265,7 +263,7 @@ def raw_data(df):
         user_response = input('\nDo you want to view first 5 lines of raw data?  (Yes/No)\n').lower()
         
         if user_response == 'yes':
-            print(df[0:i])
+            print(df[0:5])
         elif user_response not in responses:
             print('\nPlease provide a valid response: (Yes/No)')
             
@@ -278,7 +276,7 @@ def raw_data(df):
         if user_response == 'yes':
                         
             user_number = int(input('\nHow many more lines of data do you wish to see?   (Please enter a valid number)\n'))
-            print(df[i:i+user_number])
+            print(df[5:5+user_number])
             i += user_number
         elif user_response == 'no':
             break
