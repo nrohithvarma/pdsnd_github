@@ -22,8 +22,8 @@ def get_filters():
     city = []
     
     while city not in cities:
-        print('Please enter the city for which you would like to see the data: \n 1. Chicago, \n 2. New York City, \n 3. Washington')
-        city = input().lower()
+        city = input('Please enter the city for which you would like to see the data: \n 1. Chicago, \n 2. New York City, \n 3. Washington\n').lower()
+        
         
         if city not in cities:
             print('\nInvalid input. Please provide a valid city name')
