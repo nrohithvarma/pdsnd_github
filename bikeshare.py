@@ -23,6 +23,8 @@ def get_filters():
     
     while city not in cities:
         print('Please enter the city for which you would like to see the data: \n 1. Chicago, \n 2. New York City, \n 3. Washington')
+       
+     # normalizing lower case input to avoid mismatch in user input.  
         city = input().lower()
         
         if city not in cities:
@@ -37,7 +39,8 @@ def get_filters():
     while month not in months:
         print('\n\nPlease enter the month for which you would like to see the data: January, February,....,June')
         print('\nEnter "all" if you want to see data for all months')
-          
+
+     # normalizing lower case input to avoid mismatch in user input.     
         month = input().lower()
           
         if month not in months:
@@ -52,7 +55,8 @@ def get_filters():
     while day not in days:
         print('\nPlease enter the day of week for which you would like to see the data: Monday, Tuesday,....,Sunday')
         print('\nEnter "all" if you want to see data for all days of week')
-        
+
+    # normalizing lower case input to avoid mismatch in user input.    
         day = input().lower()
         
         if day not in days:
