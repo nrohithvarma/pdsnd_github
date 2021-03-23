@@ -11,26 +11,26 @@ The project explores US bikeshare customer data from three cities (Chicago, New 
 The data is analyzed to provide statistical summaries.
 
 The program calculates and provides the following statistical metrics:
-*Most popular month
-*Most popular day
-*Most popular hour
-*Most popular start station
-*Most popular end station
-*Most popular combination of start and end stations
-*Total trip duration
-*Average trip duration
-*Types of users by number
-*Types of users by gender (if available)
-*The oldest user (if available)
-*The youngest user (if available)
-*The most common birth year amongst users (if available)
+* Most popular month
+* Most popular day
+* Most popular hour
+* Most popular start station
+* Most popular end station
+* Most popular combination of start and end stations
+* Total trip duration
+* Average trip duration
+* Types of users by number
+* Types of users by gender (if available)
+* The oldest user (if available)
+* The youngest user (if available)
+* The most common birth year amongst users (if available)
 
 
 ## **Files used**
 
-*chicago.csv - provides bikeshare data for the city of Chicago
-*new_york_city.csv - provides bikeshare data for NYC
-*washington.csv - provides bikeshare data for the city of Washington
+* chicago.csv - provides bikeshare data for the city of Chicago
+* new_york_city.csv - provides bikeshare data for NYC
+* washington.csv - provides bikeshare data for the city of Washington
 
 All of the above data files were provided by Udacity
 
