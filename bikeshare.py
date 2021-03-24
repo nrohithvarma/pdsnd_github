@@ -270,7 +270,8 @@ def raw_data(df):
             print(df[0:5])
         elif user_response not in responses:
             print('\nPlease provide a valid response: (Yes/No)')
-            
+
+    i = 5       
             
     # loop to ask users if they want to continue viewing data
     while user_response == 'yes':
@@ -280,7 +281,7 @@ def raw_data(df):
         if user_response == 'yes':
                         
             user_number = int(input('\nHow many more lines of data do you wish to see?   (Please enter a valid number)\n'))
-            print(df[5:5+user_number])
+            print(df[i:i+user_number])
             i += user_number
         elif user_response == 'no':
             break
